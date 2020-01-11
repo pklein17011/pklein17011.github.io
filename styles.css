@@ -1,0 +1,41 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Be Vietnam', 'Century Gothic', sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header,
+footer {
+    background-color: #c1c9e8;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+img {
+    float: right;
+    height: 200px;
+    margin: 1.25rem auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px darkgray;
+}
+
+hr {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
