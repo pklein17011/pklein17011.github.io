@@ -1,7 +1,12 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    font-family: 'Be Vietnam', 'Century Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+
+    font-family: 'Gayathri', sans-serif;
 }
 
 header,
