@@ -5,7 +5,9 @@ body {
 }
 
 header {
+    
     font-family: 'Gayathri', sans-serif;
+
 }
 
 header,
