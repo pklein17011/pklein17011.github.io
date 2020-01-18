@@ -1,0 +1,24 @@
+/*large, laptop, or desktop view*/
+@media only screen and (min-width: 60em) {
+	main {
+        display: grid;
+        grid-gap: 7px;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 0.8rem;
+        text-align: center; 
+    }
+
+    section:nth-child(1) {
+        grid-column: span 1;
+    }
+    
+    section:nth-child(2) {
+        grid-column: span 1;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 1;
+    }
+    
+    
+}
