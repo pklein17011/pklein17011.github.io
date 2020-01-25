@@ -1,0 +1,53 @@
+@media only screen and (min-width: 32.5em)
+{
+
+.active {
+        background-color: aquamarine;
+}
+
+article {
+    border: 2px solid rgb(235, 211, 200);
+}
+
+img {
+    width: 8em;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.target-audience {
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.color-scheme {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.color-scheme img {
+    width: 40em;
+}
+
+.typography {
+    grid-template-columns: 1fr 1fr;
+}
+
+li {
+    text-align: center;
+    margin: 0;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+}
