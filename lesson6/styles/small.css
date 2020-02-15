@@ -1,0 +1,163 @@
+a:link {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: #B0B3B8;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: #B0B3B8;
+    text-decoration: none;
+}
+
+.active {
+    color: blue;
+}
+
+.article {
+    background-color: #20519B;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 3px;
+    padding-left: 20px;
+}
+
+body {
+    background-color: #B0B3B8;
+}
+
+.contact {
+    background-color: #B52E27;
+    border-radius: 20px;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 1%;
+    padding: 3px;
+    padding-left: 20px;
+}
+
+footer {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color: #696C70;
+    background-color: #E8BE52;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 1%;
+}
+
+iframe {
+    width: 100%;
+}
+img {
+    width: 20em;
+}
+
+h2 {
+    background-color: rgba(232,190,82, 0.6);
+    font-family: 'Source Code Pro', monospace;
+    text-align: right;
+    font-size: 36px;
+    color: black;
+    padding: 10px;
+}
+
+h4 {
+    font-family: 'Press Start 2P', cursive;;
+}
+
+header {
+    background-color: #B0B3B8;
+    text-align: center;
+}
+
+.heroImage {
+    background-image: url("/cit230/lesson5/images/rainyWindow.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+    /* class selectors*/
+.hidden {
+    display: none;
+}
+
+nav {
+    background-color: #B52E27;
+    font-size: 100%;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #20519B;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    padding: 15px;
+
+}
+
+.responsive li {
+    display: block;
+}
+
+.p {
+    font-family: 'Source Code Pro', monospace;
+    border: 3px solid #022601;
+    background-color: #B0B3B8;
+    margin: 1%;
+    padding: 3%;
+}
+
+nav {
+    align-content: center;
+    color: #B0B3B8;
+}
+
+.weatherSummary {
+    background-color: rgba(58, 131, 86, 0.8);
+    border-radius: 20px;
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    margin: 14px;
+    width: 250px;
+}
+
+.weatherSummary h4 {
+    border-bottom: 3px solid black;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    padding-left: 4px;
+}
+
+.weatherSummary p {
+    margin-top: -8px;
+    padding-left: 4px;
+}
+
+
+/* ID SELECTORS */
+
+#weatherSummary {
+    background-color: pink;
+    max-width: 200px;
+    padding: 13px;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+}
+
+/* new color scheme (nintendo)
+lightGrey - #B0B3B8
+darkGrey - #696C70
+green - #3A8356 rgb(58,131,86)
+yellow - #E8BE52 rgb(232,190,82)
+blue - #20519B
+red - #B52E27 
+'Press Start 2P', cursive;*/
+/* for small - #forecast {display: none;} */
