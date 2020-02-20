@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(85, 30, 92);
+}
+
+h1{
+    font-family: "quicksand", sans-serif;
+    text-align: center;
+    color: cornsilk;
+}
+
+picture{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top:30px;
+    border: rgb(85, 30, 92) solid 2px;
+}
+
+figure{
+    background-color: cornsilk;
+    padding: 10px;
+    margin: 2rem auto;
+    display: grid;
+}
+
+figcaption{
+    text-align: center;
+    font-family: 'quicksand', sans-serif;
+    color: rgb(85, 30, 92);
+    padding-top: 20px;
+}
+
+img[data-src] {
+    filter: blur(1em);
+  }
+
+img {
+    filter: blur(0em);
+    transition: filter 2s;
+    max-width:100%;
+  }
