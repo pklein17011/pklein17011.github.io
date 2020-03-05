@@ -1,0 +1,73 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(88, 66, 129);
+}
+
+main{
+    box-shadow: 0 0 20px black;
+    background-color: rgb(209, 209, 209);
+}
+
+div{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+section {
+    align-items: center;
+}
+
+img{
+    width: 60%;
+    margin: 5px auto;
+    text-align: center;
+    display: block;
+   box-shadow: 0 0 20px black;
+}
+
+h2, p {
+    text-align: center;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(88, 66, 129);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    margin: 5px;
+    padding: 5px;
+    border: 1px black solid;
+    background-color: rgb(197, 188, 207);
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+@media only screen and (min-width: 34em){
+
+.cards{
+    grid-template-columns: 50% 50%;
+}
+}
+
+@media only screen and (min-width: 65em){
+
+    .cards{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+}

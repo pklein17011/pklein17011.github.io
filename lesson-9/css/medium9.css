@@ -1,0 +1,40 @@
+@media only screen and (min-width: 34em){
+
+    .townstats {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+   main section {
+     display: flex;
+       width: 80%;
+       margin: auto;
+       margin-bottom: 20px;
+       padding: 40px 20px;
+   }
+   
+   section:nth-child(odd) {
+       flex-direction: row-reverse;
+   }
+
+   section div {
+       margin: auto;
+   }
+
+   section img {
+       width: 40%;
+   }
+
+   h5{
+       font-size: 24pt;
+   }
+
+   #newsarticle{
+       display:block;
+   }
+
+   #newsarticle p{
+       font-size: 14pt;
+   }
+
+   }
