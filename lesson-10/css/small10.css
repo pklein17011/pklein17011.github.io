@@ -1,0 +1,204 @@
+#bannerad h1{
+    background-color: #21174f;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    }
+    
+    header{
+        background-color: #c7bee2;
+        max-width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    
+    h1{
+        font-family: "Quicksand", sans-serif;
+        color: #21174f;
+        text-align: center;
+        font-size: 1.75em;
+        padding-top:10px;
+       }
+    
+    .tagline{
+        font-family: "Quicksand", sans-serif;
+        color:#21174f;
+        align-content: center;
+        font-size: 1em;
+        padding-bottom: 5px;
+    }
+    
+    .websiteheaders{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header img{
+        height: 20%;
+        width: 20%;
+    }
+    
+    nav {
+        background-color: #ADCCC8;
+        text-align: center;
+        font-family: "EB Garamond", serif;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    nav ul a {
+        display: block;
+        color: #3A3B38;
+        text-align: center;
+        padding: .75rem;
+        text-decoration: none;
+        font-size: .75em;
+        font-weight: bold;
+    }
+    
+    nav ul a:link, nav ul a:visited{
+        color: #3A3B38;
+    }
+    
+    nav ul a:hover{
+        color: #21174f;
+        text-decoration: underline;
+    }
+    
+    nav ul a.active{
+        color: #21174f;
+        text-decoration: underline;
+        background-color: whitesmoke;
+    }
+    
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #21174f;
+        text-align: center;
+        font-size: 1em;
+        position: relative;
+        padding-bottom: 5px;
+    }
+    
+    body{
+        background-color: #d8d8da;
+        text-align: center;
+        color: #3A3B38;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    main picture.weatherphoto{
+        width: 80%;
+        margin: 0;
+    }
+    
+    main picture.weatherphoto img{
+        width: 100%;
+        border: 1px solid #21174f;
+    }
+
+    .weathersummary{
+        position: relative;
+        margin: 10px;
+        padding-bottom: 50px;
+    }
+    
+    .weatherstats{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: radial-gradient(whitesmoke,#c7bee2);
+        border: 1px solid #000;
+        padding: 2px;
+        opacity: .8;
+    }
+    
+    .weatherstats p{
+        font-size:1em;
+        margin: auto;
+        text-transform: capitalize;
+    }
+    
+    .fivedayforecast{
+        display: none;
+    }
+    
+    #articlecontent{
+    background-color: #c7bee2;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 15px;
+    font-size:1em;
+    text-align: left;
+    }
+    
+    .articlecolumn, .articleimage{
+        width: 48%;
+        flex: 1 0 15em;
+        margin: 0.5em
+      }
+    
+      .articleimage img{
+          width:100%
+      }
+    
+      #contactinformation{
+          background-color: #ADCCC8;
+          display:flex;
+          flex-flow: row wrap;
+          align-items: center;
+          padding: 15px;
+          font-size: 1em;
+          text-align: center;
+      }
+    
+      .mapofpreston, .informationcolumn{
+          width:48%;
+          flex: 1 0 15em;
+          margin: 0.5em;
+      }
+    
+      .mapofpreston img{
+          display: none;
+      }
+    
+    footer{
+        background-color: #c7bee2;
+        font-family: "Quicksand", sans-serif;
+        padding:5px;
+    }
+    
+    .navigation li:first-child{
+        display: block;
+    }
+    
+    .navigation li{
+        display: none;
+    }
+    
+    .responsive li{
+        display: block;
+    }
+    
+    .links{
+        font-family: "EB Garamond", serif;
+        color: #3A3B38;
+    }
+    
+    h3, h4{
+        text-decoration: underline;
+    }
+    
+    h5{
+        font-style: italic;
+    }
+    
+    

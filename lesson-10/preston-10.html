@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site Project- Preston, ID</title>
+    <meta name="weather site project" content="home page weather site for Preston, ID">
+    <meta name="description" content="weather page site for Presto, Idaho weather project CIT 230">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/small10.css">
+    <link rel="stylesheet" href="./css/medium10.css">
+    <link rel="stylesheet" href="./css/large10.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+        <body>
+            <section id="bannerad" hidden><h1>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h1></section>
+            <header>
+                <img src="images/weathericon.png" alt="logo for weather site">
+                <section class="websiteheaders">
+                <h1>The Gem State Climate Conditions</h1>
+                <div class="tagline">The latest weather forecast for Southeast Idaho</div>
+                </section>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
+                    <li><a href="../lesson-9/index.html">Home</a></li>
+                    <li><a href="preston-10.html" class="active">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+                    <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h2>Preston, Idaho</h2>
+            <div class="weathersummary">
+                <picture class="weatherphoto">
+                  <img src="./images/skypicture.jpg" alt="Preston, ID picture">
+                </picture>
+                <section class="weatherstats">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span id="currentCondition"></span></p>
+                    <p>Temperature: <span id="current-temp"></span>°F</p>
+                    <p>Humidity: <span id="humidity"></span> % </p>
+                    <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+                    <p>Wind Chill: <span id="chill"></span></p>
+                    </section>
+            </div>
+           <div class="fivedayforecast">
+            <h4>5 Day Weather Forecast</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="day1">Mon</th>
+                            <th id="day2">Tues</th>
+                            <th id="day3">Wed</th>
+                            <th id="day4">Thurs</th>
+                            <th id="day5">Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img id="image1" src="#" alt="#">
+                                <span id="temp1"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image2" src="#" alt="#">
+                                    <span id="temp2"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image3" src="#" alt="#">
+                                    <span id="temp3"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image4" src="#" alt="#">
+                                    <span id="temp4"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image5" src="#" alt="#">
+                                    <span id="temp5"></span>°F
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <section id="articlecontent">
+            <div class="articlecolumn">
+                <h4>Article Title</h4>
+            <h5>By: Author</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="articleimage">
+                <img src="./images/grassypark.jpg" alt=" park image for article">
+            </div>   
+        </section>
+        <br>
+            <section id="contactinformation">
+                    <div class="mapofpreston">
+                        <img src="./images/prestonmap.jpg" alt="Preston Idaho map">
+                    </div>
+                <div class=informationcolumn>
+                <h4>Contact Information</h4>
+                <strong>Gem State Climate Conditions</strong>
+                <p>&#128205; N 1st E</p>
+                <p>&phone; (208)555-5555</p>
+                <p>&#9993; gemstateclimateconditions@gmail.com</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            &copy; 2020 | Peter Klein | Dallas, TX | <a href="https://www.byui.edu/online">BYU Online Learning</a><br>
+            Last Updated <span id="currentdate"></span>
+            <br>
+            <script src="main.js"></script>
+          </footer>
+            <script src="./js/sources.js"></script>
+            <script src="./js/weatherapi.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="./js/webfont.js"></script>
+        </body>
+</html>
