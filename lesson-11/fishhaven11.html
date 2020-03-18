@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site Project- Preston, ID</title>
+    <meta name="weather site project" content="home page weather site for Preston, ID">
+    <meta name="description" content="weather page site for Presto, Idaho weather project CIT 230">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/small11.css">
+    <link rel="stylesheet" href="./css/medium11.css">
+    <link rel="stylesheet" href="./css/large11.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+        <body>
+            <header>
+                <img src="images/weathericon.png" alt="logo for weather site">
+                <section class="websiteheaders">
+                <h1>The Gem State Climate Conditions</h1>
+                <div class="tagline">The latest weather forecast for Southeast Idaho</div>
+                </section>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston11.html">Preston</a></li>
+                    <li><a href="sodaspings11.html">Soda Springs</a></li>
+                    <li><a href="fishhaven11.html" class="active">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h2>Fish Haven, Idaho</h2>
+            <div class="weathersummary">
+                <picture class="weatherphoto">
+                  <img src="./images/fishhavenweather.jpg" alt="Fish Haven, ID picture">
+                </picture>
+                <section class="weatherstats">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span id="currentCondition"></span></p>
+                    <p>Temperature: <span id="current-temp"></span>°F</p>
+                    <p>Humidity: <span id="humidity"></span> % </p>
+                    <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+                    <p>Wind Chill: <span id="chill"></span></p>
+                    </section>
+            </div>
+           <div class="fivedayforecast">
+            <h4>5 Day Weather Forecast</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="day1">Mon</th>
+                            <th id="day2">Tues</th>
+                            <th id="day3">Wed</th>
+                            <th id="day4">Thurs</th>
+                            <th id="day5">Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img id="image1" src="#" alt="#">
+                                <span id="temp1"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image2" src="#" alt="#">
+                                    <span id="temp2"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image3" src="#" alt="#">
+                                    <span id="temp3"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image4" src="#" alt="#">
+                                    <span id="temp4"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image5" src="#" alt="#">
+                                    <span id="temp5"></span>°F
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <section id="articlecontent">
+            <div class="articlecolumn">
+                <h4>Fishing in Fish Haven is Heaven</h4>
+            <p>Nestled close to the border of Idaho and Utah is a quaint town called Fish Haven that is located right near Bear lake. Fish Haven 
+                is a great place to visit if you love the serene beauty that nature provides. A common activity here in Fish Haven that people 
+                enjoy doing year round is fishing. During the summer time people are  found catching fish to grill for a barbecue and during the winter time 
+                people are out ice fishing trying to catch for a warm winter night's meal. Fishing here in Fish Haven is an activity that is enjoyed
+                by many year round.
+            </p>
+            <p>
+                Every summer for two weeks, there is a fishing contest to see who can catch the largest fish. The reward that come with this is having 
+                the title of best fisher in Fish Haven for that year and having one's picture taken and hung in the town hall next to all the previous winners 
+                pictures. The largest fish ever caught in Fish Haven  was a rainbow trout that weighed in at 37lbs! You will also find people wakesurfing and jetsking
+                during the summer as well. So, if fishing is not for you, come enjoy a day doing water activities or just come enjoy a day in the sun by the beautiful 
+                shimmering blue lake.
+            </p>
+            </div>
+            <div class="articleimage">
+                <img src="./images/fishing.jpg" alt=" park image for article">
+            </div>   
+        </section>
+        <section class="events">
+                <h4>Yearly Town Events for Fish Haven</h4>
+            <div class="townevents"></div>
+        </section>
+            <section id="contactinformation">
+                    <div class="idahomap">
+                        <img src="./images/footermap.png" alt="Preston Idaho map">
+                    </div>
+                <div class=informationcolumn>
+                <h4>Contact Information</h4>
+                <strong>Gem State Climate Conditions</strong>
+                <p>&#128205; N 1st E</p>
+                <p>&phone; (208)555-5555</p>
+                <p>&#9993; gemstateclimateconditions@gmail.com</p>
+                </div>
+            </section>
+        </main>
+            <footer>&copy; Gem State Climate Conditions | <a class="links" href="https://openweathermap.org/">openweathermap.org</a> | <a class="links" href="../index.html">Peter Klein</a>
+                <br>
+                Current Date: <span id="currentdate"></span>
+            </footer>
+            <script src="./js/sources.js"></script>
+            <script src="./js/fishhaveninformation.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="./js/webfont.js"></script>
+        </body>
+</html>

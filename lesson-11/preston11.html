@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site Project- Preston, ID</title>
+    <meta name="weather site project" content="home page weather site for Preston, ID">
+    <meta name="description" content="weather page site for Presto, Idaho weather project CIT 230">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/small11.css">
+    <link rel="stylesheet" href="./css/medium11.css">
+    <link rel="stylesheet" href="./css/large11.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+        <body>
+            <section id="bannerad" hidden><h1>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h1></section>
+            <header>
+                <img src="images/weathericon.png" alt="logo for weather site">
+                <section class="websiteheaders">
+                <h1>The Gem State Climate Conditions</h1>
+                <div class="tagline">The latest weather forecast for Southeast Idaho</div>
+                </section>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston11.html" class="active">Preston</a></li>
+                    <li><a href="sodaspings11.html">Soda Springs</a></li>
+                    <li><a href="fishhaven11.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h2>Preston, Idaho</h2>
+            <div class="weathersummary">
+                <picture class="weatherphoto">
+                  <img src="./images/skypicture.jpg" alt="Preston, ID picture">
+                </picture>
+                <section class="weatherstats">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span id="currentCondition"></span></p>
+                    <p>Temperature: <span id="current-temp"></span>°F</p>
+                    <p>Humidity: <span id="humidity"></span> % </p>
+                    <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+                    <p>Wind Chill: <span id="chill"></span></p>
+                    </section>
+            </div>
+           <div class="fivedayforecast">
+            <h4>5 Day Weather Forecast</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="day1">Mon</th>
+                            <th id="day2">Tues</th>
+                            <th id="day3">Wed</th>
+                            <th id="day4">Thurs</th>
+                            <th id="day5">Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img id="image1" src="#" alt="#">
+                                <span id="temp1"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image2" src="#" alt="#">
+                                    <span id="temp2"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image3" src="#" alt="#">
+                                    <span id="temp3"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image4" src="#" alt="#">
+                                    <span id="temp4"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image5" src="#" alt="#">
+                                    <span id="temp5"></span>°F
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <section id="articlecontent">
+            <div class="articlecolumn">
+                <h4>The Origin of Pancakes in the Park</h4>
+            <p>Pancakes in the park has been a tradition in Preston, Idaho since the town was founded in 1866. Pancakes were an easy meal that could feed a large
+                number of people quickly before the began working on building up homes and other buildings when establishing the town. Since then, the town leaders
+                began to invite all town members for pancakes in the park each Saturday after Preston was established. This was enacted to help promote bonding and 
+                friendships among those who were living in Preston and anybody that settled there afterwards.
+            </p>
+            <p> 
+                We are commonly asked what makes the pancakes that are served so fluffy, buttery and light. We are here to answer that question. The secret to the 
+                pancakes is the freshly made buttermilk that is made using the milk provided by our local farmers right here in Preston. During the summer, there is 
+                freshly picked fruit available to top the pancakes with. Then during the winter, there is hot apple cider made with apples picked in a nearby orchard
+                to have with the pancakes that is sure to warm you up during the chilly winter days. Come visit us during pancakes in the park and make lifelong friendships
+                while enjoying a hearty pancake breakfast.
+            </p>
+            </div>
+            <div class="articleimage">
+                <img src="./images/pancakes.jpg" alt=" pancake image for article">
+            </div>   
+        </section>
+        <section class="events">
+                <h4>Yearly Town Events for Preston, Idaho</h4>
+                <div class="townevents"></div>
+        </section>
+            <section id="contactinformation">
+                    <div class="idahomap">
+                        <img src="./images/footermap.png" alt="SoutheastIdaho map">
+                    </div>
+                <div class=informationcolumn>
+                <h4>Contact Information</h4>
+                <strong>Gem State Climate Conditions</strong>
+                <p>&#128205; N 1st E</p>
+                <p>&phone; (208)555-5555</p>
+                <p>&#9993; gemstateclimateconditions@gmail.com</p>
+                </div>
+            </section>
+        </main>
+            <footer>&copy; Gem State Climate Conditions | <a class="links" href="https://openweathermap.org/">openweathermap.org</a> | <a class="links" href="../index.html">Peter Klein</a>
+                <br>
+                Current Date: <span id="currentdate"></span>
+            </footer>
+            <script src="./js/sources.js"></script>
+            <script src="./js/prestoninformation.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="./js/webfont.js"></script>
+        </body>
+</html>

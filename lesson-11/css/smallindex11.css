@@ -1,0 +1,157 @@
+header{
+    background-color: #c7bee2;
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+h1{
+    font-family: "Quicksand", sans-serif;
+    color: #21174f;
+    text-align: center;
+    font-size: 1.75em;
+    padding-top:10px;
+   }
+
+.tagline{
+    font-family: "Quicksand", sans-serif;
+    color:#21174f;
+    align-content: center;
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+
+.websiteheaders{
+    display: flex;
+    flex-direction: column;
+}
+
+header img{
+    height: 20%;
+    width: 20%;
+}
+
+nav {
+    background-color: #ADCCC8;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul a {
+    display: block;
+    color: #3A3B38;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+nav ul a:link, nav ul a:visited{
+    color: #3A3B38;
+}
+
+nav ul a:hover{
+    color: #21174f;
+    text-decoration: underline;
+}
+
+nav ul a.active{
+    color: #21174f;
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
+
+.navigation li:first-child{
+    display: block;
+}
+
+.navigation li{
+    display: none;
+}
+
+.responsive li{
+    display: block;
+}
+
+.linktohomepage, .links{
+    font-family: "EB Garamond", serif;
+    color: #3A3B38;
+}
+
+body{
+    background-color: #d8d8da;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align:center;
+    padding-left: 15px;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 2em;
+    color:#3A3B38;
+}
+
+h3{
+    font-size: 24pt;
+    color: #c7bee2;
+    text-shadow: 2px 2px #21174f;
+}
+
+h4{
+    font-style: italic;
+}
+
+h5{
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+.townstats{
+    display:grid;
+    margin-bottom: 10px;
+}
+
+main section{
+    align-items: center;
+    display: block;
+    color: #d8d8da;
+    background-color: #3A3B38;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin: 15px auto;
+    border: 1px #21174f solid;
+    width: 80%;
+    
+}
+
+main img{
+    width: 70%;
+    margin: 5px auto;
+    display: block;
+   box-shadow: 0 0 10px #c7bee2;
+}
+
+#newsarticle{
+    background-color: #ADCCC8;
+    color: #3A3B38;
+}
+
+
+footer{
+    background-color: #c7bee2;
+    color: #3A3B38;
+    font-family: "Quicksand", sans-serif;
+    padding:5px;
+}

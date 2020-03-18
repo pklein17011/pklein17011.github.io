@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site Project- Preston, ID</title>
+    <meta name="weather site project" content="home page weather site for Preston, ID">
+    <meta name="description" content="weather page site for Presto, Idaho weather project CIT 230">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/smallgallery.css">
+    <link rel="stylesheet" href="./css/mediumgallery.css">
+    <link rel="stylesheet" href="./css/largegallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+        <body>
+            <header>
+                <img src="images/weathericon.png" alt="logo for weather site">
+                <section class="websiteheaders">
+                <h1>The Gem State Climate Conditions</h1>
+                <div class="tagline">The latest weather forecast for Southeast Idaho</div>
+                </section>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston11.html">Preston</a></li>
+                    <li><a href="sodaspings11.html">Soda Springs</a></li>
+                    <li><a href="fishhaven11.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h2>Weather Gallery</h2>
+            <div class="picturecolumns">
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/horsesinblizzard.jpg" alt="horses in a winter blizzard">
+                </picture>
+                <figcaption>Horses in a Blizzard</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/christmastreesinsnow.jpg" alt="Christmas trees in snow">
+                </picture>
+                <figcaption>Christmas Trees in Snow</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/pumpkinpatch.jpg" alt="Autumn pumpkin patch">
+                </picture>
+                <figcaption>Autumn Pumpkin Patch</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/rainyforestfog.jpg" alt="Foggy forest highway">
+                </picture>
+                <figcaption>Foggy Forest Highway</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/fallingleaves.jpg" alt="Falling Autumn leaves">
+                </picture>
+                <figcaption>Path of Autumn Leaves</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/snowylaneoftrees.jpg" alt="snow and trees">
+                </picture>
+                <figcaption>Snowy Lane of Trees</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/fieldofautumntrees.jpg" alt="autumn trees">
+                </picture>
+                <figcaption>Field of Autumn Trees</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/autumnleavesnearpond.jpg" alt="leaves near pond">
+                </picture>
+                    <figcaption>Autumn Leaves near a Pond</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="images/placeholder.png" data-src="./images/icyberrybranch.jpg" alt="icy berry branch">
+                </picture>
+                    <figcaption>Icicle Coated Berry Branches</figcaption>
+            </figure>
+            </div>
+        </main>
+        <footer>&copy; Gem State Climate Conditions | <a class="links" href="https://openweathermap.org/">openweathermap.org</a> | <a class="linktohomepage" href="../index.html">Peter Klein</a>
+            <br>
+            Current Date: <span id="currentdate"></span>
+        </footer>
+        <script src="./js/sources.js"></script>
+        <script src="./js/loading.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="./js/webfont.js"></script>
+        </body>
+        </html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site Project- Preston, ID</title>
+    <meta name="weather site project" content="home page weather site for Preston, ID">
+    <meta name="description" content="weather page site for Presto, Idaho weather project CIT 230">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="./css/small11.css">
+    <link rel="stylesheet" href="./css/medium11.css">
+    <link rel="stylesheet" href="./css/large11.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+        <body>
+            <header>
+                <img src="images/weathericon.png" alt="logo for weather site">
+                <section class="websiteheaders">
+                <h1>The Gem State Climate Conditions</h1>
+                <div class="tagline">The latest weather forecast for Southeast Idaho</div>
+                </section>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston11.html">Preston</a></li>
+                    <li><a href="sodaspings11.html" class="active">Soda Springs</a></li>
+                    <li><a href="fishhaven11.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h2>Soda Springs, Idaho</h2>
+            <div class="weathersummary">
+                <picture class="weatherphoto">
+                  <img src="./images/sodaspringsweather.jpg" alt="Soda Springs, ID picture">
+                </picture>
+                <section class="weatherstats">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span id="currentCondition"></span></p>
+                    <p>Temperature: <span id="current-temp"></span>°F</p>
+                    <p>Humidity: <span id="humidity"></span> % </p>
+                    <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+                    <p>Wind Chill: <span id="chill"></span></p>
+                    </section>
+            </div>
+           <div class="fivedayforecast">
+            <h4>5 Day Weather Forecast</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="day1">Mon</th>
+                            <th id="day2">Tues</th>
+                            <th id="day3">Wed</th>
+                            <th id="day4">Thurs</th>
+                            <th id="day5">Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img id="image1" src="#" alt="#">
+                                <span id="temp1"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image2" src="#" alt="#">
+                                    <span id="temp2"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image3" src="#" alt="#">
+                                    <span id="temp3"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image4" src="#" alt="#">
+                                    <span id="temp4"></span>°F
+                            </td>
+                            <td>
+                                    <img id="image5" src="#" alt="#">
+                                    <span id="temp5"></span>°F
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <section id="articlecontent">
+            <div class="articlecolumn">
+                <h4>History of Soda Springs</h4>
+            <p>Soda Springs sounds like it would be well known for their specialty bottled soda but that is not where the name originated.
+                The name Soda Springs actually came from a geyser where the natural pools looked like bubbly carbonated water. This spring 
+                became more widely known and used as people began traveling the area in which it was located during the times of the Oregon 
+                trail. Many people used this spring for the washing of clothes and for drinking. What they did not know was the water was not
+                the best for drinking because of the abundance of alkalais it contained.
+            </p>
+            <p>
+                Soda Springs is also home to the only known "captive geyser". This geyser was created by accident when drilling for hot water 
+                for a pool. There was so much water erupting from it that the town nearly flooded. It took them months to stop the flow of water.
+                They were finally able to control the flow of water by adding a timer valve to it controling when water erupts. This geyser is known 
+                to be more faithful than "Old Reliable". 
+            </p>
+            </div>
+            <div class="articleimage">
+                <img src="./images/geyser.jpg" alt=" geyser image for article">
+            </div>   
+        </section>
+        <section class="events">
+            <h4>Yearly Town Events for Soda Springs, Idaho</h4>
+                <div class="townevents"></div>
+        </section>
+            <section id="contactinformation">
+                    <div class="idahomap">
+                        <img src="./images/footermap.png" alt="Preston Idaho map">
+                    </div>
+                <div class=informationcolumn>
+                <h4>Contact Information</h4>
+                <strong>Gem State Climate Conditions</strong>
+                <p>&#128205; N 1st E</p>
+                <p>&phone; (208)555-5555</p>
+                <p>&#9993; gemstateclimateconditions@gmail.com</p>
+                </div>
+            </section>
+        </main>
+            <footer>&copy; Gem State Climate Conditions | <a class="links" href="https://openweathermap.org/">openweathermap.org</a> | <a class="links" href="../index.html">Peter Klein</a>
+                <br>
+                Current Date: <span id="currentdate"></span>
+            </footer>
+            <script src="./js/sources.js"></script>
+            <script src="./js/sodaspringsinformation.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script src="./js/webfont.js"></script>
+        </body>
+</html>
