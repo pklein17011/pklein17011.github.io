@@ -1,0 +1,44 @@
+{
+    "guides": [
+      {
+        "name": "Johnathan Billman",
+        "photo": "johnathan.jpg",
+        "certLevel": "VI",
+        "yearsExp": "22",
+        "emailAddress": "j.billman@salmonriver.com",
+        "biography": [
+          "Johnathan was born in Riggins, ID and grew up on the river thanks to his father, who was a guide on the Salmon River for 34 years. He is our most experienced guide. "
+        ]
+      },
+      {
+        "name": "Bud Adkinson",
+        "photo": "bud.jpg",
+        "certLevel": "VI",
+        "yearsExp": "14",
+        "emailAddress": "b.adkinson@salmonriver.com",
+        "biography": [
+          "Bud is from Texas and enjoyed tubing down the Guadalupe River.  It wasn't until he was 20 that he took his first white ware trip down the Grand Canyon.  From then on he was hooked.  He met Johnathan at the USNWC certification school and the two of them went on to work for Salmon River White Water Adventures."
+        ]
+      },
+      {
+        "name": "Tabitha Lin",
+        "photo": "tabby.jpg",
+        "certLevel": "IV",
+        "yearsExp": "7",
+        "emailAddress": "tgomes@salmonriver.com",
+        "biography": [
+          "Tabitha, or Tabby, grew up in Flagstaff, Arizona an loved to be outdoors.  She has been doing white water rafting for about 10 years and been a guide for 7."
+        ]
+      },
+      {
+        "name": "Malcom Wright",
+        "photo": "malcom.jpg",
+        "certLevel": "III",
+        "yearsExp": "4",
+        "emailAddress": "m.wright@salmonriver.com",
+        "biography": [
+          "Malcom may be relativly new to white water rafting, but tat does not mean he is inexperianced.  Before white water rafting Malcom was a mountain climber and has summitted the 7 highest peaks on each continent "
+        ]
+      }
+    ]
+  }
