@@ -1,0 +1,103 @@
+body {
+    font-family: 'Gayathri', sans-serif;
+    text-align: center;
+    background-color: #63d2ff;
+    color: #7b3e19;
+}
+
+header {
+    background-color: #ff2876;
+    padding: 0.3em 1em;
+}
+
+.logoPng,
+object {
+    width: 10vw;
+    height: 10vw;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 1vh;
+    margin-bottom: -1.5em;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+table,
+td {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: solid 2px #b28b84;
+    padding: 1em;
+}
+
+a {
+    color: #b28b84;
+}
+
+a:visited,
+a:active,
+a:hover {
+    color: #ff2876;
+}
+
+nav a {
+    text-decoration: none;
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+nav :hover {
+    background-color: white;
+    color: #ff2876;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 3em;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    border: solid 2px #b28b84;
+}
+
+footer {
+    background-color: #ff2876;
+    color: white;
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: purple;
+}
+
+.menuItemHidden {
+    display: inline;
+}

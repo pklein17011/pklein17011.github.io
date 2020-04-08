@@ -1,0 +1,89 @@
+@media only screen and (min-width: 37.5em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    nav button {
+        display: none;
+    }
+    /* hamburger button does not need to be shown in the medium on up views */
+    nav ul li {
+        display: inline;
+    }
+
+    /*** FORECAST ***/
+    /*** added color and size, and a border. The Flex column should work now. ***/
+    section.forecast {
+        display: flex;
+        flex-direction: column;
+        color: darkblue;
+        font-size: 1.2rem;
+        max-width: 90%;
+        margin: auto;
+    }
+    section.forecast h3 {
+        font-size: 1.7rem;
+    }
+    section.forecast table {
+        text-align: center;
+    }
+
+    section.forecast th {
+        background-color: darkblue;
+        color: white;
+        padding: 10px;
+    }
+    section.forecast tbody {
+        background-color: dodgerblue;
+        color: white;
+    }
+    section.forecast td {
+        padding: 10px;
+    }
+    /*
+    .forecast {display: none;}show the 10-day forecast with the medium view and up */
+    /*medium css for hamb menu*/
+    /*** made the max-width here 100% so the nav would go accross the page ***/
+    header,
+    nav {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    h1 {
+        text-align: center;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    /*** made the nav a different color for contrast and made the text bigger ***/
+    .navigation {
+        overflow: hidden;
+        text-align: center;
+        background-color: darkblue;
+    }
+    .navigation li {
+        display: inline-block;
+        margin-left: .25rem;
+    }
+    .navigation a {
+        display: flex;
+        color: #eee;
+        padding: .5rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+    .navigation a:hover {
+        color: lightblue;
+        background-color: dodgerblue;
+    }
+
+    .gallimgs {
+        display: grid;
+        grid-template-columns: 450px 450px;
+    }
+    .gallimgs figure {
+        padding-top: 2rem;
+        font-size: 16pt;
+    }
+}

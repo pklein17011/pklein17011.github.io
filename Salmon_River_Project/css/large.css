@@ -1,0 +1,106 @@
+@media only screen and (min-width: 64em) {
+    section.forecast {
+        display: flex;
+    }
+    nav ul li {
+        display: flex;
+    }
+    /*large css for hamb menu*/
+    body {
+        font-size: 16px;
+        font-family: sans-serif;
+        color: darkblue;
+        margin: 0;
+    }
+    header,
+    nav {
+        margin: 0 auto;
+        max-width: 1025px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .hamburger {
+        display: none;
+    }
+    /*  .homepage {
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        justify-content: center;
+    }*/
+    .indexGallery {
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        justify-content: center;
+
+
+
+    }
+    .indexGallery.section {
+        justify-content: center;
+
+    }
+    #a,
+    #b,
+    #c {
+        text-align: center;
+    }
+    .navigation {
+        background-color: darkblue;
+        overflow: hidden;
+        text-align: center;
+        font-size: 14pt;
+    }
+    .navigation li {
+        display: inline-block;
+        margin-left: .25rem;
+    }
+    .navigation a {
+        display: flex;
+        color: #eee;
+        padding: .5rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+    .navigation a:hover {
+        color: lightblue;
+        background-color: dodgerblue;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .gallimgs {
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        justify-content: center;
+    }
+    .gallimgs figure {
+        padding-top: 2rem;
+        font-size: 16pt;
+    }
+    .gallimgs figure img:hover {
+        box-shadow: 10px 10px 15px gray;
+    }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    form header,
+    nav,
+    main {
+        max-width: 64rem;
+        margin: auto;
+        text-align: left
+    }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    footer {
+
+        padding: 25px;
+
+
+    }
+}
