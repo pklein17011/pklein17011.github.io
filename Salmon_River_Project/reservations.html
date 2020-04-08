@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="CIT-230 Final Website" content="Salmon River Adventures">
+<meta name="Peter Klein" content="Peter Klein">
+<title>Salmon River Adventure</title>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="/Salmon_River_Project/css/normalize.css" rel="stylesheet">
+<link href="/Salmon_River_Project/css/small.css" rel="stylesheet">
+<link href="/Salmon_River_Project/css/medium.css" rel="stylesheet">
+<link href="/Salmon_River_Project/css/large.css" rel="stylesheet">
+
+    
+</head>
+<body>
+<header>
+    <picture>
+        <img src="/Salmon_River_Project/images/logo.jpg" alt="Salmon River Adventures Logo">
+    </picture>
+    <section class="headings">
+        <h1>Salmon River Adventures</h1>
+        <h2>The Best White Water Rafting Adventure In The State</h2>
+    </section>
+</header>
+ <hr> 
+<nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#">&#9776; Menu</a></li>
+        <li><a href="/Salmon_River_Project/index.html">&#183 Home &#183</a></li>
+        <li><a href="/Salmon_River_Project/guides.html">&#183 Guides &#183</a></li>
+        <li><a href="/Salmon_River_Project/reservations.html">&#183 Pick your Adventure &#183</a></li>
+        <li><a class="active" href="/Salmon_River_Project/contactus.html">&#183 Contact Us &#183</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="section1">
+        <div class="callToAction">
+            <h4>Reserve your Adventure</h4>
+
+
+            <picture class="myphoto">
+
+                <img src="/Salmon_River_Project/images/Raft.jpg"
+                    alt="Rafting adventure">
+            </picture>
+        </div>
+        <hr>
+    </section>
+        <header class="hborder">
+            <h3>Pick the adventure that is right for you and your group.</h3>
+        </header>
+    
+        <br>
+        <table class="restable">
+
+            <thead class="header">
+                <tr>
+                    <th>Adventure</th>
+                    <th>Length</th>
+                    <th>Skill Level</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tr>
+                <td style="background-color: #edffec">Beginner</td>
+                <td style="background-color: #edffec">2 hours</td>
+                <td style="background-color: #edffec">II</td>
+                <td style="background-color: #edffec">$150 per person</td>
+            </tr>
+            <tr>
+                <td style="background-color: #edffec">Intermediate</td>
+                <td style="background-color: #edffec">4 Hours</td>
+                <td style="background-color: #edffec">IV</td>
+                <td style="background-color: #edffec">$350 per person</td>
+            </tr>
+            <tr>
+                <td style="background-color: #edffec">Advanced</td>
+                <td style="background-color: #edffec">8 hours</td>
+                <td style="background-color: #edffec">V<I/td>
+                <td style="background-color: #edffec">$450 per person</td>
+            </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4">Contact us for any custom adventure</th>
+                </tr>
+            </tfoot>
+
+
+        </table>
+
+        <div class="smallview">
+            <div class="col">
+                <span class="title">
+                    Beginner
+                </span>
+                <div class="content">
+                    <ul>
+                        <li>Length = 2 hours</li>
+                        <li>Skill Level = II</li>
+                        <li>Cost = $150 per person</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <span class="title">
+                    Intermediate
+                </span>
+                <div class="content">
+                    <ul>
+                        <li>Length = 6 hours</li>
+                        <li>Skill Level = IV</li>
+                        <li>Cost = $350 per person</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <span class="title">
+                    Advanced
+                </span>
+                <div class="content">
+                    <ul>
+                        <li>Length = 8 hours</li>
+                        <li>Skill Level = VI</li>
+                        <li>Cost = $450 per person</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <section class="form"><br>
+            <h2>There are limited spots, reserve now to guarantee a seat in the greatest adventure in Idaho!</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">
+                        First Name*<input type="text" name="fname" pattern="[A-Za-9]" required>
+                    </label>
+                    <label class="top">
+                        Last Name*<input type="text" name="lname" pattern="[A-Za-9]" required>
+                    </label>
+                    <label class="top">
+                        Phone*<input type="tel" name="phone" placeholder="123-555-1234" required>
+                    </label>
+                    <label class="top">
+                        Email*<input type="email" name="email" placeholder="someone@gmail.com" required>
+                    </label>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Which adventure and Date?</legend>
+                  
+                        <div>Start Date*</div>
+                    <label class="info"><input type="date" name="date" required></label>
+                   
+
+                    <div>Which adventure are you looking for?</div>
+
+                    <label class="info"><input type="checkbox" name="adventure" value="beginner">Beginner</label><br>
+                    <label class="info"><input type="checkbox" name="adventure" value="middle">Intermediate</label><br>
+                    <label class="info"><input type="checkbox" name="adventure" value="advanced">Advanced</label>
+
+                    <div>Which best describes your group?</div>
+                    <label class="who"> <select name="who">
+                            <option value="">Please Select</option>
+                            <option value="self">Individual</option>
+                            <option value="family">Family Trip</option>
+                            <option value="youth">Church Youth Group</option>
+                            <option value="team">Corporate Team Building</option>
+                            <option value="girls">Girls Trip</option>
+                            <option value="boys">Boys Trip</option>
+                            <option value="school">School Group</option>
+                        </select>
+                    </label>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comments or Questions</legend>
+                    <label class="comment" for="comments">
+                     Additional Information, Comments, or Questions.
+                    </label>
+                    <textarea id="comments" name="comments" rows="10" cols="60"></textarea>
+                </fieldset>
+
+                <p>* indicates required field</p>
+                <input type="submit" value="Reserve Today" class="submitBtn">
+
+            </form>
+
+
+        </section>
+
+
+
+
+</main>
+
+<hr>
+    <footer class="siteMap">
+        <table class="table">
+            <thead>
+                <tr>  
+                <th>Explore</th>
+                <th><a href="/Salmon_River_Project/contactus.html"></a>Salmon River<br>Adventures</a></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="/Salmon_River_Project/index.html">Home</a></td>
+                <td><a href="/Salmon_River_Project/contactus.html">Contact Us</a></td>
+                <td><a href="/Salmon_River_Project/adventures.html">Pick Your Adventure</a></td>
+                <td>101 N. State Street</td>
+            </tr>
+            <tr>
+                <td><a href="/Salmon_River_Project/guides.html">Guides</a></td>
+                <td><a href="/Salmon_River_Project/contactus.html">Where are we located?</a></td>
+                <td>Riggins, ID 83549</td>
+                <td><a href="https://googlemaps.com"><img src="/Salmon_River_Project/images/mail.png" alt="Mail Icon"></a>
+            </tr>
+            <tr>
+                <td><a href="/Salmon_River_Project/adventures.html">Pick Your Adventure</a></td>
+                <td>208-555-1234</td>
+            <tr>
+                <td><a href="/Salmon_River_Project/reservations.html">Reservations</a></td>
+                <td>Weather Info Provided by:<br><a href="https://openweathermap.org/">Open Weather Map</a></td>
+                <td>&copy; 2020</td>
+                <td> </td>
+            </tr>
+        </tbody>
+        </table>
+    
+    
+        <div class="smallview">
+          <div class="col">
+                <span class="title">Explore</span>
+                <span class="content"><ul>
+                    <li><a href="/Salmon_River_Project/index.html">Home</a></li>
+                    <li><a href="/Salmon_River_Project/guides.html">Guides</a></li>
+                    <li><a href="/Salmon_River_Project/adventures.html">Pick Your Adventure</a></li>
+                    <li><a href="/Salmon_River_Project/reservations.html">Reservations</a></li>
+                </ul></span>
+            </div>
+            
+            <div class="col">
+                <span class="title">Support</span>
+                <span class="content"><ul>
+                    <li><a href="/Salmon_River_Project/contactus.html">Contact</a></li>
+                    <li><div id="api">Weather Info Provided by:<br><a href="https://openweathermap.org/">Open Weather Map</a></div></li>
+                </ul></span>
+            </div>
+            <div class="col">
+                <span class="title">Top FAQ's</span>
+                <span class="content">
+                <ul>
+                    <li><a href="/Salmon_River_Project/adventures.html">Pick Your Adventure</a></li>
+                    <li><a href="/Salmon_River_Project/contactus.html">Where are we located?</a></li>
+                </ul></span>
+            </div>
+            <div class="col">
+                <span class="title">Salmon River Adventures</span>
+                <p>101 N. State St<br>
+                    Riggins, ID 83549<br>
+                    208-555-1234<br>
+                    &copy; 2020</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="/Salmon_River_Project/js/hamburgermenu.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/Salmon_River_Project/js/weather.js"></script>
+    
+    </body>
+    
+    </html>
